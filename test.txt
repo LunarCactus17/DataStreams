@@ -1,0 +1,5 @@
+This is the first line of the first file.
+It contains the word "first".
+Here is another line.
+The word first appears again.
+This is the last line.

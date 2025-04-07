@@ -1,0 +1,8 @@
+This file has mixed case words.
+Some words are UPPERCASE.
+Others are lowercase.
+And some Are MiXeD.
+Let's try searching for "words".
+Also, let's find "are".
+What about "CASE"?
+This is the end of the third test file.

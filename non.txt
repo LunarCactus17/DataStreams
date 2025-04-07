@@ -1,0 +1,6 @@
+This is a test file for our Java program.
+It has some words that we can search for.
+For example, the word "test" is here.
+Let's try searching for "Java".
+This line does not contain any of our search terms.
+The end.
