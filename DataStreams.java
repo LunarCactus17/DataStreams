@@ -8,7 +8,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.stream.Stream;
 import javax.swing.filechooser.FileNameExtensionFilter;
-import java.io.File; // Import the File class
+import java.io.File;
 
 public class DataStreams extends JFrame {
 
@@ -19,7 +19,7 @@ public class DataStreams extends JFrame {
     private JButton searchButton;
     private JButton quitButton;
 
-    private String currentDirectory; // Store the current directory
+    private String currentDirectory;
 
     public DataStreams() {
         setTitle("Data Streams Processing");
@@ -27,8 +27,7 @@ public class DataStreams extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
-        // Get the current directory
-        currentDirectory = System.getProperty("user.dir"); // Get the user's current working directory [cite: 4]
+        currentDirectory = System.getProperty("user.dir");
 
         JPanel mainPanel = new JPanel(new BorderLayout());
         JPanel textPanel = new JPanel(new GridLayout(1, 2));
@@ -88,7 +87,7 @@ public class DataStreams extends JFrame {
     private String filePath;
 
     private void loadFile() {
-        JFileChooser fileChooser = new JFileChooser(currentDirectory); // Set the current directory [cite: 1]
+        JFileChooser fileChooser = new JFileChooser(currentDirectory);
         FileNameExtensionFilter textFilter = new FileNameExtensionFilter("Text Files", "txt");
         fileChooser.setFileFilter(textFilter);
 
